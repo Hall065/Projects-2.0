@@ -161,3 +161,32 @@ article h3 {
 article p {
   margin-top: 8px;
 }
+
+/* Botões */
+.btn-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #000; /* preto */
+  color: #fff; /* branco */
+  padding: 12px 30px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #444; /* cinza escuro no hover */
+  border-color: #444;
+  color: #fff;
+  outline: none;
+}
